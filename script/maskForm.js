@@ -6,6 +6,7 @@ function maskForm(tipoDocumento, caracteres){
             break;
         case 'CPF':
             caracteres = caracteres.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/,"$1.$2.$3-$4")
+            break;
 
     }
 
